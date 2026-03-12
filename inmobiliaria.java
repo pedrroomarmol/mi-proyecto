@@ -89,4 +89,12 @@ public class inmobiliaria {
             System.out.println("Tu precio final es: "+precioBase);
         }
     }
+
+    public void venta(){
+        if (precioBase > 100000) {
+            System.out.println("El precio es demasiado alto, no se puede vender");
+        } else {
+            System.out.println("La vivienda se ha vendido por: "+precioBase);
+        }
+    }
 }
