@@ -1,6 +1,6 @@
 public class Local extends inmo {
-    boolean escaparate;
-    String actividad;
+    private boolean escaparate;
+    private String actividad;
     
     public Local(double metroscuadrados, double precioBase, String direccion, String nombreDueno, int contactoDueno, boolean segundaMano, boolean escaparate, String actividad) {
         super(metroscuadrados, precioBase, direccion, nombreDueno, contactoDueno, segundaMano);

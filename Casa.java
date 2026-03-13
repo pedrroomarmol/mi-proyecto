@@ -1,8 +1,8 @@
 public class Casa extends inmo {
-    boolean jardin;
-    boolean adosado;
-    boolean patio;
-    int plantas;
+    private boolean jardin;
+    private boolean adosado;
+    private boolean patio;
+    private int plantas;
 
     public Casa(double metroscuadrados, double precioBase, String direccion, String nombreDueno, int contactoDueno,
             boolean segundaMano, boolean jardin, boolean adosado, boolean patio, int plantas) {

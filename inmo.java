@@ -1,13 +1,13 @@
 public class inmo {
     
-    double metroscuadrados = 0;
-    double precioBase = 0;
-    String direccion = null;
-    String nombreDueno = null;
-    int contactoDueno = 0;
-    boolean segundaMano = false;
-    double precioFinal = 0;
-    String siono = "Si";
+    protected double metroscuadrados = 0;
+    protected double precioBase = 0;
+    protected String direccion = null;
+    protected String nombreDueno = null;
+    protected int contactoDueno = 0;
+    protected boolean segundaMano = false;
+    protected double precioFinal = 0;
+    protected String siono = "Si";
 
 
     public inmo() {

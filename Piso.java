@@ -1,5 +1,5 @@
 public class Piso extends inmo {
-    boolean ascensor;
+    private boolean ascensor;
     int planta;
 
     public Piso(double metroscuadrados, double precioBase, String direccion, String nombreDueno, int contactoDueno, boolean segundaMano, boolean ascensor, int planta) {
