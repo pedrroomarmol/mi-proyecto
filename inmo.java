@@ -103,6 +103,7 @@ public class inmo {
         System.out.println("Los metros cuadrados del inmueble son: " + metroscuadrados);
         System.out.println("El inmueble es de segunda mano: " + siono);
         System.out.println("El precio final del inmueble es: " + precioFinal);
+        
     }
 
     public void llamarDueno() {
@@ -133,6 +134,8 @@ public class inmo {
         local1.mostrarInformacion();
         System.out.println();
         local1.llamarDueno();
+
+        
 
      }
     

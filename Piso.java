@@ -35,11 +35,14 @@ public class Piso extends inmo {
         super.calcularPrecioFinal();
         if (ascensor == true) {
             this.precioFinal = this.precioFinal + (this.precioFinal * 0.03);
-            System.out.println("El inmueble tiene ascensor.");
             System.out.println();
+            System.out.println("El piso tiene ascensor.");
+
+            
         }
-        System.out.println("El piso no tiene ascensor.");
         System.out.println();
+        System.out.println("El piso no tiene ascensor.");
+        
     }
 
 }

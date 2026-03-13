@@ -19,11 +19,13 @@ public class Local extends inmo {
         super.calcularPrecioFinal();
         if (escaparate == true) {
             this.precioFinal = this.precioFinal+(precioFinal*0.3);
-            System.out.println("El inmueble tiene escaparate.");
             System.out.println();
+            System.out.println("El local tiene escaparate.");
+            
         }
-            System.out.println("No tiene escaparate.");
             System.out.println();
+            System.out.println("El local no tiene escaparate.");
+            
         
     }
 
